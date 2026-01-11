@@ -1,0 +1,16 @@
+meta:
+  version: 1.0
+  
+artifacts:
+  source:
+    git:
+      repo: https://github.com/ВАШ_РЕПОЗИТОРИЙ
+      branch: main
+
+  build:
+    script:
+      - pip install -r requirements.txt
+
+  run:
+    script: python bot.py
+    language: python3.11
