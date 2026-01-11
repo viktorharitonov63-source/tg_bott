@@ -5,7 +5,7 @@ meta:
     version: "3.13"
 
 run:
-  command: python bot.py
+  command: python telegrambot_contentmaker.py
   
 persistent:
   - /data
