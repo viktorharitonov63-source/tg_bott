@@ -123,5 +123,5 @@ def handle_question(message):
 
 # Запуск бота
 if __name__ == '__main__':
-    print("🤖 Бот запущен../////.")
+    print("🤖 Бот запущен..//bjk///.")
     bot.infinity_polling()
