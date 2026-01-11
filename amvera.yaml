@@ -1,16 +1,12 @@
 meta:
-  version: 1.0
-  
-artifacts:
-  source:
-    git:
-      repo: https://github.com/ВАШ_РЕПОЗИТОРИЙ
-      branch: main
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11
 
-  build:
-    script:
-      - pip install -r requirements.txt
+build:
+  script:
+    - pip install -r requirements.txt
 
-  run:
-    script: python bot.py
-    language: python3.11
+run:
+  scriptName: bot.py
