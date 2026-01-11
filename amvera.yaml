@@ -9,4 +9,4 @@ build:
     - pip install -r requirements.txt
 
 run:
-  scriptName: bot.py
+  scriptName: telegrambot_contentmaker.py
