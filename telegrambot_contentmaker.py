@@ -116,7 +116,7 @@ def handle_question(message):
             
     except Exception as e:
         bot.edit_message_text(
-            f"❌7 Ошибка при обработке запроса:\n{str(e)}",
+            f"❌7cc Ошибка при обработке запроса:\n{str(e)}",
             user_id,
             processing_msg.message_id
         )
